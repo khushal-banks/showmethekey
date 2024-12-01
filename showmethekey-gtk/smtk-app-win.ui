@@ -64,7 +64,7 @@
                           <object class="GtkSwitch" id="clickable_switch">
                             <property name="valign">center</property>
                             <property name="sensitive">false</property>
-                            <property name="active">true</property>
+                            <property name="active">false</property>
                             <signal
                                 name="notify::active"
                                 handler="smtk_app_win_on_clickable_switch_active"

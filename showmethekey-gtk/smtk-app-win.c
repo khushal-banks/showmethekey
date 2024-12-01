@@ -102,7 +102,7 @@ static void smtk_app_win_keys_win_on_destroy(SmtkAppWin *win,
 
 		gtk_switch_set_active(GTK_SWITCH(win->keys_win_switch), false);
 		// Clickable by default.
-		gtk_switch_set_active(GTK_SWITCH(win->clickable_switch), true);
+		gtk_switch_set_active(GTK_SWITCH(win->clickable_switch), false);
 		gtk_switch_set_active(GTK_SWITCH(win->pause_switch), false);
 		smtk_app_win_enable(win);
 	}

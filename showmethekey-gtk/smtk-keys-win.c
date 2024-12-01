@@ -354,6 +354,7 @@ static void smtk_keys_win_constructed(GObject *object)
 	adw_header_bar_set_title_widget(ADW_HEADER_BAR(win->header_bar),
 					win->handle);
 	gtk_box_append(GTK_BOX(win->box), win->header_bar);
+	smtk_keys_win_set_clickable(win, false);
 
 	win->emitter = smtk_keys_emitter_new(win->show_shift,
 					     win->show_keyboard,
